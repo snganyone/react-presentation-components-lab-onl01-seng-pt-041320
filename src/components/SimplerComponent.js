@@ -2,9 +2,8 @@
 import React from 'react';
 
 const SimplerCompent = props => {
-    //this.props.handleClick = {};
     return(
-    <div>I am just happy</div>
+    <div onClick={props.handleClick}>I am just happy</div>
     )
 }
 
